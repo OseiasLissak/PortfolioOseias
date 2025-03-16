@@ -46,7 +46,7 @@ header{
     box-shadow: 2px 2px 2px #00abf0;
 }
 
-.logo{
+.logo a{
     font-size: 40px;
     color: #fff;
     text-decoration: none;
@@ -499,11 +499,12 @@ section div.background-section{
 @media only screen and (max-width: 900px){
 
     /* HEADER - MENU HAMBURGUER*/
-    .logo{
+    .logo a{
         width: 120px; 
         word-wrap: break-word;
         font-size: 25px;
-    }    
+    }
+        
 
     .hamburguer{
         display: block;
