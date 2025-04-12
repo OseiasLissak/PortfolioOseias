@@ -318,6 +318,30 @@ section div.background-section{
     border-color:#000000;
     background-color: #fff;
 }
+
+
+.btn-download-cv{
+    padding: 10px 20px;
+    background: #00abf0;
+    border-radius: 10px;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px  #00abf0;
+    transition: .5s;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.btn-download-cv:hover{
+    box-shadow: none;
+    color: #00abf0;
+    border-color:#000000;
+    background-color: #fff;
+}
+
 /* ------------------------------------------------ */
 
 
