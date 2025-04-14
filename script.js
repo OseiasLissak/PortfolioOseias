@@ -75,19 +75,22 @@ if(navBarAtive)
 
 /* Download CV */
 
-  document.getElementById("btn-download").addEventListener("click", function(ev) {
+  document.getElementById("btn-download-cv").addEventListener("click", function(ev) {
   
-    const divDownloadOk = document.getElementById('downloadOk');
-    
+    const divDownloadOk = document.getElementsByClassName("divBtn");  
+     alert("Download realizado com sucesso!") 
+
+     
     // Verifica se já existe um parágrafo com a classe "paragrafoDownloadOK"
-    if (!divDownloadOk.querySelector(".paragrafoDownloadOK")) {
+    /* if (!divDownloadOk.getElementsByClassName("paragrafoDownloadOK")) {
+      
       const paragrafo = document.createElement("p");
       paragrafo.classList = "paragrafoDownloadOK";
       paragrafo.innerHTML = "Download realizado com sucesso!";
   
       divDownloadOk.appendChild(paragrafo);
     }
-  });
+  */});
   
 /* Select Menus */
 
